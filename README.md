@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of наверх link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -22,42 +22,31 @@
     <a href="https://github.com/kutuzovmikv/EmPatio"><strong>Ознакомиться с проектом »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kutuzovmikv/EmPatio">View Demo</a>
+    <a href="https://github.com/kutuzovmikv/EmPatio">Посмотреть Демо</a>
     ·
-    <a href="https://github.com/kutuzovmikv/EmPatio/issues">Report Bug</a>
+    <a href="https://github.com/kutuzovmikv/EmPatio/issues">Сообщить о ошибке</a>
     ·
-    <a href="https://github.com/kutuzovmikv/EmPatio/issues">Request Feature</a>
+    <a href="https://github.com/kutuzovmikv/EmPatio/issues">Добавить функционал</a>
   </p>
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## О проекте
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![EmPatio Main Page Screen Shot][main-screenshot]]()
+[![EmPatio Patio Info Screen Shot][info-screenshot]]()
+[![EmPatio Collections Screen Shot][collections-screenshot]]()
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+**EmPatio** - проект для тех, кто не знает, что показать друзьям, которые приехали в Санкт-Петербург.
+В Питере много красивых культурных мест, но есть и те, о существовании которых мало кто знает, а именно дворики.
+Многие из них оформлены под какую-то тематику, поэтому и названия у них соответствующие, например, _"Мозаичный дворик"_.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Цель проекта** - помочь найти эти места на карте и дать краткую информацию. Так что в следующий раз, когда ты не 
+будешь знать что показать приехавшим из других городов друзьям, ты мог открыть карту и посетить эти места, хотя бы виртуально.
+Ну а после длительной прогулки можно и заглянуть в бар, ведь как говорил один депутат: _"В Питере - пить!"_
+
+
 
 
 
@@ -65,45 +54,51 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![Html][Html]][Html-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Как использовать
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Достаточно просто зайти на сайт. Перед вами будет карта с геолокациями двориков. Просто выбирайте район, который вы
+хотите посетить и дворики в нем. Далее, если хотите, ознакомьтесь с описанием и отправляйтесь в путь.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Также ознакомьтесь с тематическими подборками двориков, чтобы посетить их, например, с детьми.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Вы не обязаны регистрироваться, но чтобы добавить дворик себе в персональные подборки ("Любимое", "Увиденное" и  т. д.)
+необходимо зарегистрироваться. Чем больше мест вы посетите, тем выше будет ваш ранг. Вначале мы все "Туристы", но кто знает,
+что ждет активных исследователей...
+
+
+
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Будущий функционал
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Добавить главную страницу
+- [ ] Оформить сайт по схеме
+- [ ] Добавить несколько двориков для теста
+- [ ] Добавить возможность сохранять подборки
+- [ ] Добавить возможность завести аккаунт
+- [ ] Дальше - больше
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+Весь функционал будет добавляться в виде [Issues](https://github.com/kutuzovmikv/EmPatio/issues) на странице репозитория.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
 <!-- CONTACT -->
-## Contact
+## Контакты
 
-Mikhail
+Михаил
 
-tg: [@kutuzovmikv](https://t.me/kutuzovmikv)
+Телеграм: [@kutuzovmikv](https://t.me/kutuzovmikv)
 
-Project Link: [https://github.com/kutuzovmikv/EmPatio](https://github.com/kutuzovmikv/EmPatio)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -119,6 +114,8 @@ Project Link: [https://github.com/kutuzovmikv/EmPatio](https://github.com/kutuzo
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[main-screenshot]: images/main_page.png
+[info-screenshot]: images/patio_info.png
+[collections-screenshot]: images/collections.png
 [Html]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [Html-url]: https://html.spec.whatwg.org/

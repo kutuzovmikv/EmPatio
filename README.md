@@ -16,7 +16,7 @@
 
 <h3 align="center">EmPatio</h3>
 
-  <p align="center">
+  <p>
     DLC для KUDAGO
     <br />
     <a href="https://github.com/kutuzovmikv/EmPatio"><strong>Ознакомиться с проектом »</strong></a>
@@ -94,7 +94,9 @@
 <!-- CONTACT -->
 ## Контакты
 
-Михаил
+Михаил Кутузов 
+
+Группа: М33001, ИСУ: 311497
 
 Телеграм: [@kutuzovmikv](https://t.me/kutuzovmikv)
 

@@ -9,12 +9,12 @@
     overflow-x: hidden;
     padding-top: 20px;
     border: 1px solid black;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font: 10px system-ui;
     border-radius: 5px;
 }
 
-.sidenav a{
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -28,16 +28,16 @@
     outline: none;
 }
 
-.sidenav a:hover{
+.sidenav a:hover {
     color: #b05a5a;
 }
 
-.sidenav p{
+.sidenav p {
     font-size: 15px;
     text-align: center;
 }
 
-.sidenav img{
+.sidenav img {
     height: 100px;
     display: block;
     margin-left: auto;

@@ -2,28 +2,40 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Описание,Главная,Дворики">
+    <meta name="keywords" content="Описание,Главная,Дворики,Карта">
     <title>EmPatio</title>
-    <link href="styles/sidenav.css" rel="stylesheet">
-    <link href="styles/search.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/map.css"/>
+    <link rel="stylesheet" href="styles/menu.css"/>
+    <link rel="stylesheet" href="styles/searchbar.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css"/>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 </head>
 <body>
-<main>
-    <div class="sidenav">
-        <img src="source/img/avatar.png" alt="Аватар">
-        <p>Михаил, турист</p>
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"></button>
+    <div id="myDropdown" class="dropdown-content">
         <a href="#">Профиль</a>
-        <a href="#">Добавить дворик</a>
         <a href="#">Подборки</a>
+        <a href="#">Добавить дворик</a>
     </div>
-    <form id="form" role="search">
-        <label for="query">
-            <input type="search" id="query" name="q" placeholder="Поиск двориков">
-        </label>
-    </form>
-    <div id="map">
-        <img src="source/img/map.jpg" alt="Карта">
-    </div>
-</main>
+</div>
+
+<form>
+    <input type="text" placeholder="Искать дворик...">
+    <button type="submit" class="searchbtn"></button>
+</form>
+
+<div id="map"></div>
+<script>
+    /* Когда пользователь нажимает на кнопку, переключаться раскрывает содержимое */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+</script>
+<script src="scripts/map.js"></script>
 </body>
 </html>

@@ -1,10 +1,11 @@
 @media screen and (min-width: 600px) {
     .dropbtn {
-        background: url(/source/img/avatar.png);
+        background: url(../source/img/avatar.png);
         z-index: 2;
         position: relative;
         color: white;
-        margin: 16px;
+        margin-top: 16px;
+        margin-left: 45px;
         padding: 16px;
         height: 100px;
         width: 100px;
@@ -22,7 +23,6 @@
     .dropdown-content {
         border: #F15B42 solid;
         border-radius: 5px;
-        margin-top: -16px;
         margin-left: 16px;
         display: none;
         position: absolute;

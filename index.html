@@ -5,31 +5,41 @@
     <meta name="keywords" content="Описание,Главная,Дворики,Карта">
     <title>EmPatio</title>
 
+    <link rel="stylesheet" href="styles/external/leaflet.css"/>
+    <script src="styles/external/leaflet.js"></script>
+    <script src="styles/external/jquery.js"></script>
+
     <link rel="stylesheet" href="styles/map.css"/>
     <link rel="stylesheet" href="styles/menu.css"/>
     <link rel="stylesheet" href="styles/searchbar.css"/>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css"/>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <link rel="stylesheet" href="styles/preloader.css"/>
 </head>
 <body>
+<div class="preloader">
+    <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+    </div>
+</div>
+
 <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn"></button>
     <div id="myDropdown" class="dropdown-content">
-        <a href="#">Профиль</a>
+        <a href="pages/profile.html">Профиль</a>
         <a href="pages/collections.html">Подборки</a>
-        <a href="#">Добавить дворик</a>
+        <a href="pages/newPatio.html">Добавить дворик</a>
     </div>
 </div>
 
 <form>
-    <input type="text" placeholder="Искать дворик...">
+    <label>
+        <input type="text" placeholder="Искать дворик...">
+    </label>
     <button type="submit" class="searchbtn"></button>
 </form>
 
 <div id="map"></div>
+<script src="scripts/preloader.js"></script>
 <script>
     /* Когда пользователь нажимает на кнопку, переключаться раскрывает содержимое */
     function myFunction() {

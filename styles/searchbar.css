@@ -22,16 +22,15 @@ input {
 }
 .searchbtn {
     height: 42px;
-    width: 42px;
+    width: 80px;
     position: absolute;
     right: 0;
     background: #F15B42;
     cursor: pointer;
 }
 .searchbtn:before {
-    content: "\f002";
-    font-family: FontAwesome;
+    content: "Поиск";
     color: #F9F0DA;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+
+
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="../../common/main-page/main-page.css"/>
+
+    <link rel="stylesheet" href="../../common/preloader/preloader.css"/>
+    <script src="../../common/preloader/preloader.js"></script>
+    <script type="module" src="profile.js"></script>
+
+    <script src="../../common/loadTime/showLoadTime.js"></script>
+
+    <link href="../../external/toastr.css" rel="stylesheet"/>
+    <script src="../../external/jquery.js"></script>
+    <script src="../../external/toastr.js"></script>
+</head>
+<body>
+<div class="preloader">
+    <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+    </div>
+</div>
+
+<section>
+    <nav>
+        <ul class="menuItems">
+            <li><a href='../../index.html' data-item='Карта'>Карта</a></li>
+            <li><a href='../profile/profile.html' data-item='Профиль'>Профиль</a></li>
+            <li><a href='../show-patios/show-patios.html' data-item='Мои дворики'>Мои дворики</a></li>
+            <li><a href='../add-patio/add-patio.html' data-item='Добавить дворик'>Добавить дворик</a></li>
+        </ul>
+    </nav>
+</section>
+
+<figure class="fir-image-figure">
+
+    <a class="fir-imageover" rel="noopener" target="_blank">
+        <img class="fir-author-image fir-clickcircle" src="https://fir-rollup.firebaseapp.com/de-sm.jpg" alt="David East - Author">
+    </a>
+
+    <figcaption>
+        <div id="name" class="fig-author-figure-title"></div>
+        <div id="email" class="fig-author-figure-title"></div>
+        <div id="username" class="fig-author-figure-title"></div>
+    </figcaption>
+</figure>
+
+<footer>
+
+    <div id="load-time" class="footer-copyright text-center">&copy; Developed with ❤️</i> by
+        <a href="https://github.com/kutuzovmikv/" class="white-text" target="_blank">Kut</a>
+    </div>
+
+</footer>
+</body>
+</html>

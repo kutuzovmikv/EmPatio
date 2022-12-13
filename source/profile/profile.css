@@ -1,0 +1,47 @@
+:root {
+    --fir-font-article: "adobe-garamond-pro", "Times New Roman", Times;
+    --fir-font-header: "foco", Helvetica;
+    --fir-color-grey: rgba(0,0,0, 0.40);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.fir-clickcircle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.fir-image-figure {
+    display: flex;
+    align-items: center;
+    margin: 0 0 40px;
+    position: relative;
+    text-decoration: none;
+}
+
+.fir-image-figure .caption, .fir-image-figure figcaption {
+    padding-left: 15px;
+}
+
+html.wf-active .fir-image-figure .fig-author-figure-title {
+    font-family: var(--fir-font-header);
+    font-size: 25px;
+}
+
+.fir-image-figure .fig-author-figure-title {
+    color: var(--fir-color-grey);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.fir-imageover {
+    position: relative;
+    display: flex;
+}
